@@ -22,3 +22,7 @@ BASE_URL : localhost:3000
 - Authorization token is required in headers to access websocket(chatroom)
 
 WEBSOCKET URL IS : localhost:3000
+
+----------------------------------------------------------------------------------------------------------
+
+- TO TEST CHATROOM FIRST START APP and THEN GET TOKEN FROM REGISTER OR LOGIN API and USE THAT TOKEN IN EXTERNAL/client.js file after run client.js file
