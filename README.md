@@ -1,3 +1,8 @@
+TO START NODE.JS APP
+
+Step 1: npm install
+Step 2: npm start
+
 LIST OF APIS:
 
 BASE_URL : localhost:3000
