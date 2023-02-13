@@ -43,8 +43,8 @@ io.on("connection", (socket) => {
     console.log("Received message from", username, "and message is", message);
     console.log("-----------------");
 
-    // emit to all connected client
-    io.emit("message", message);
+    // emit to all connected client and we are sending object which contains username and message
+    io.emit("message", { username: username, message: message });
   });
 });
 
